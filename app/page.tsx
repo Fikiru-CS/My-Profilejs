@@ -6,7 +6,8 @@ export default function Home() {
 
       <h2>About Me</h2>
       <p>
-        I’m learning web development using Next.js and building my personal
+        I’m learning web development using Next.js and building my 
+        personal
         profile website to showcase my skills and projects.
       </p>
 
