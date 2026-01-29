@@ -3,7 +3,7 @@ export default function Home() {
     <main className="container">
       <section className="hero">
         <h1>Fikiru Tamiru</h1>
-        <p>CS Student & Full Stack Developer</p>
+        <p>Computer Science Student & Developer</p>
         <p>Next.js • PostgreSQL • JavaScript • React • CSS</p>
       </section>
 
