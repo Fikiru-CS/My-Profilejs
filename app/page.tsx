@@ -4,7 +4,7 @@ export default function Home() {
       <section className="hero">
         <h1>Fikiru Tamiru</h1>
         <p>Computer Science Student & Developer</p>
-        <p>Next.js • PostgreSQL • JavaScript • React • CSS</p>
+        <p>Next.js • PostgreSQL • JavaScript • React • CSS •HTML</p>
       </section>
 
       <section className="projects">
