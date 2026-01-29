@@ -1,64 +1,52 @@
 export default function Home() {
   return (
-    <>
-      {/* Header */}
-      <header className="header">
-        <div className="logo">Company Logo</div>
-        <h1 className="title">Ethiopian Service Facilitator</h1>
-        <div className="auth-buttons">
-          <button className="btn-outline">Login</button>
-          <button className="btn">Register</button>
-        </div>
-      </header>
+    <main className="container">
+      <section className="hero">
+        <h1>Fikiru Tamiru</h1>
+        <p>CS Student & Full Stack Developer</p>
+        <p>Next.js • PostgreSQL • JavaScript • React • CSS</p>
+      </section>
 
-      {/* Services */}
-      <main className="main">
-        <section className="services">
-          <h2>Our Services</h2>
-          <div className="service-list">
-            <span>Visa Service</span>
-            <span>Business Registration</span>
-            <span>Legal Consulting</span>
-            <span>Real Estate</span>
-            <span>Tour & Travel</span>
-            <span>Import / Export</span>
-          </div>
-        </section>
-      </main>
+      <section className="projects">
+        <h2>Selected Projects</h2>
 
-      {/* Footer */}
-      <footer className="footer">
-        <div className="footer-grid">
-          <div>
-            <h3>Office Locations</h3>
-            <p>Bole Sub-City, Addis Ababa</p>
-            <p>Kaffa Zone, Bonga, SNNPR</p>
-          </div>
-
-          <div>
-            <h3>Contact Information</h3>
-            <p>Email: contact@ethiofacilitator.com</p>
-            <p>Phone: +251 912 345 678</p>
-          </div>
-
-          <div>
-            <h3>Sponsors</h3>
-            <p>Ethio Telecom</p>
-            <p>Bank of Abyssinia</p>
-          </div>
-
-          <div>
-            <h3>Follow Us</h3>
-            <p>Facebook</p>
-            <p>Telegram</p>
-            <p>LinkedIn</p>
-          </div>
+        {/* E-Commerce */}
+        <div className="project-card">
+          <h3>E-Commerce Website</h3>
+          <p>
+            A responsive online store with product listings, shopping cart,
+            checkout, and user authentication using Next.js and Tailwind CSS.
+          </p>
+          <span className="tech">Next.js • React • Tailwind CSS • Stripe</span>
         </div>
 
-        <p className="copyright">
-          © 2025 Ethiopian Service Facilitator. All Rights Reserved.
+        {/* Student Management */}
+        <div className="project-card">
+          <h3>Student Management System</h3>
+          <p>
+            A dashboard for managing student data, courses, and attendance
+            — built with a clean UI and structured logic.
+          </p>
+          <span className="tech">React • PostgreSQL • Express • REST API</span>
+        </div>
+      </section>
+
+      <section className="contact">
+        <h2>Contact</h2>
+        <p>Email: fikiru@email.com</p>
+        <p>
+          GitHub:{" "}
+          <a href="https://github.com/Fikiru-CS" target="_blank">
+            github.com/yourusername
+          </a>
         </p>
-      </footer>
-    </>
+        <p>
+          LinkedIn:{" "}
+          <a href="https://linkedin.com/in/fikiru-tamiru-06370037a/" target="_blank">
+            linkedin.com/in/fikiru-tamiru-06370037a/
+          </a>
+        </p>
+      </section>
+    </main>
   );
 }
