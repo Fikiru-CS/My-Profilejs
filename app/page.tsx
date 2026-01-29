@@ -16,8 +16,8 @@ export default function Home() {
         <li>Email: fikiru@email.com</li>
         <li>
           GitHub:{" "}
-          <a href="https://github.com/https://github.com/Fikiru-CS/My-Profilejs.git" target="_blank">
-            github.com/https://github.com/Fikiru-CS/My-Profilejs.git
+          <a href="https://github.com/Fikiru-CS" target="_blank">
+            github.com/Fikiru-CS
           </a>
         </li>
       </ul>
