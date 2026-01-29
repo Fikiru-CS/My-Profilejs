@@ -1,61 +1,71 @@
-/* Reset & base styles */
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
+/* Base */
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #f4f6f8;
-  color: #222;
-  line-height: 1.6;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #f9fafb;
+  color: #111;
 }
 
-/* Layout */
+/* Container */
 .container {
   max-width: 900px;
   margin: 60px auto;
-  padding: 30px;
-  background: #ffffff;
-  border-radius: 12px;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  padding: 20px;
 }
 
-/* Headings */
-h1 {
-  font-size: 2.5rem;
-  margin-bottom: 10px;
+/* Hero */
+.hero {
+  text-align: center;
+  margin-bottom: 60px;
+}
+.hero h1 {
+  font-size: 3rem;
+  color: #0d3b66;
+}
+.hero p {
+  font-size: 1.2rem;
+  margin-top: 8px;
+  color: #555;
 }
 
-h2 {
-  margin-top: 30px;
-  margin-bottom: 10px;
-  color: #0070f3;
+/* Projects */
+.projects h2 {
+  font-size: 2rem;
+  color: #0d3b66;
+  margin-bottom: 20px;
+}
+.project-card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 18px;
+  margin-bottom: 20px;
+  border-left: 4px solid #0d3b66;
+}
+.project-card h3 {
+  font-size: 1.5rem;
+  color: #0d3b66;
+}
+.project-card p {
+  margin: 8px 0;
+  font-size: 1rem;
+}
+.tech {
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #0a2a4a;
 }
 
-/* Text */
-p {
-  font-size: 1.1rem;
-  margin-bottom: 15px;
+/* Contact */
+.contact {
+  margin-top: 40px;
 }
-
-/* List */
-ul {
-  list-style: none;
-  padding-left: 0;
+.contact h2 {
+  font-size: 1.8rem;
+  color: #0d3b66;
 }
-
-li {
-  margin-bottom: 8px;
-}
-
-/* Links */
-a {
+.contact a {
   color: #0070f3;
   text-decoration: none;
 }
-
-a:hover {
+.contact a:hover {
   text-decoration: underline;
 }
