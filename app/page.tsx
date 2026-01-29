@@ -4,7 +4,7 @@ export default function Home() {
     <main className="container">
       <section className="hero">
   <Image
-    src="/images/profile.jpg"
+    src="/images/profile.JPG"
     alt="Fikiru Tamiru"
     width={140}
     height={140}
@@ -22,7 +22,7 @@ export default function Home() {
         {/* E-Commerce */}
         <div className="project-card">
   <Image
-    src="/images/ecommerce.jpg"
+    src="/images/ecommerce.JPG"
     alt="E-Commerce Project"
     width={400}
     height={220}
@@ -37,7 +37,7 @@ export default function Home() {
         {/* Student Management */}
         <div className="project-card">
   <Image
-    src="/images/student.jpg"
+    src="/images/student.JPG"
     alt="Student Management System"
     width={400}
     height={220}
