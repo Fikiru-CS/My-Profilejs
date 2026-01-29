@@ -17,7 +17,7 @@ export default function Home() {
         <li>
           GitHub:{" "}
           <a href="https://github.com/https://github.com/Fikiru-CS/My-Profilejs.git" target="_blank">
-            github.com/Fikiru Tamiru
+            github.com/https://github.com/Fikiru-CS/My-Profilejs.git
           </a>
         </li>
       </ul>
