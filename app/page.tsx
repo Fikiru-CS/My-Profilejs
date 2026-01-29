@@ -29,7 +29,7 @@ export default function Home() {
         {/* E-Commerce */}
         <div className="project-card">
           <Image
-            src="/images/ecommerce.png"
+            src="/images/ecommerce.jpg"
             alt="E-Commerce Website"
             width={500}
             height={260}
@@ -48,7 +48,7 @@ export default function Home() {
         {/* Student Management */}
         <div className="project-card">
           <Image
-            src="/images/student.png"
+            src="/images/student.jpg"
             alt="Student Management System"
             width={500}
             height={260}
@@ -69,12 +69,12 @@ export default function Home() {
         <h2>Contact</h2>
 
         <div className="contact-item">
-          <Image src="/images/email.png" alt="Email" width={24} height={24} />
+          <Image src="/images/email.jpg" alt="Email" width={24} height={24} />
           <span>fikiru@email.com</span>
         </div>
 
         <div className="contact-item">
-          <Image src="/images/github.png" alt="GitHub" width={24} height={24} />
+          <Image src="/images/github.jpg" alt="GitHub" width={24} height={24} />
           <a href="https://github.com/Fikiru-CS" target="_blank">
             github.com/Fikiru-CS
           </a>
@@ -82,7 +82,7 @@ export default function Home() {
 
         <div className="contact-item">
           <Image
-            src="/images/linkedin.png"
+            src="/images/linkedin.jpg"
             alt="LinkedIn"
             width={24}
             height={24}
