@@ -1,71 +1,86 @@
-/* Base */
-body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background: #f9fafb;
-  color: #111;
-}
+import Image from "next/image";
 
-/* Container */
-.container {
-  max-width: 900px;
-  margin: 60px auto;
-  padding: 20px;
-}
+export default function Home() {
+  return (
+    <main className="min-h-screen bg-gray-50 text-gray-800 font-sans">
+      {/* Hero Section */}
+      <section className="hero flex flex-col items-center justify-center text-center py-16 bg-gradient-to-r from-indigo-500 to-purple-600 text-white">
+        <Image
+          src="/images/profile.JPG"
+          alt="Fikiru Tamiru"
+          width={140}
+          height={140}
+          className="rounded-full border-4 border-white shadow-lg"
+        />
+        <h1 className="mt-6 text-4xl font-bold">Fikiru Tamiru</h1>
+        <p className="mt-2 text-lg font-medium">
+          Computer Science Student & Developer
+        </p>
+        <p className="mt-2 text-sm text-gray-200">
+          Next.js • PostgreSQL • JavaScript • React • CSS • HTML
+        </p>
+      </section>
 
-/* Hero */
-.hero {
-  text-align: center;
-  margin-bottom: 60px;
-}
-.hero h1 {
-  font-size: 3rem;
-  color: #0d3b66;
-}
-.hero p {
-  font-size: 1.2rem;
-  margin-top: 8px;
-  color: #555;
-}
+      {/* Projects Section */}
+      <section className="projects py-16 max-w-6xl mx-auto px-4">
+        <h2 className="text-3xl font-bold text-center mb-12">Selected Projects</h2>
+        <div className="grid gap-8 md:grid-cols-2">
 
-/* Projects */
-.projects h2 {
-  font-size: 2rem;
-  color: #0d3b66;
-  margin-bottom: 20px;
-}
-.project-card {
-  background: #fff;
-  border-radius: 10px;
-  padding: 18px;
-  margin-bottom: 20px;
-  border-left: 4px solid #0d3b66;
-}
-.project-card h3 {
-  font-size: 1.5rem;
-  color: #0d3b66;
-}
-.project-card p {
-  margin: 8px 0;
-  font-size: 1rem;
-}
-.tech {
-  font-size: 0.9rem;
-  font-weight: bold;
-  color: #0a2a4a;
-}
+          {/* E-Commerce Project */}
+          <div className="project-card bg-white rounded-xl shadow-md overflow-hidden hover:scale-105 transition-transform duration-300">
+            <Image
+              src="/images/ecommerce.JPG"
+              alt="E-Commerce Project"
+              width={400}
+              height={220}
+              className="w-full h-52 object-cover"
+            />
+            <div className="p-6">
+              <h3 className="text-xl font-semibold mb-2">E-Commerce Website</h3>
+              <p className="text-gray-600 mb-4">A full-stack e-commerce website with payment integration and responsive design.</p>
+              <span className="tech text-sm text-indigo-500 font-medium">
+                Next.js • React • Tailwind CSS • Stripe
+              </span>
+            </div>
+          </div>
 
-/* Contact */
-.contact {
-  margin-top: 40px;
-}
-.contact h2 {
-  font-size: 1.8rem;
-  color: #0d3b66;
-}
-.contact a {
-  color: #0070f3;
-  text-decoration: none;
-}
-.contact a:hover {
-  text-decoration: underline;
+          {/* Student Management Project */}
+          <div className="project-card bg-white rounded-xl shadow-md overflow-hidden hover:scale-105 transition-transform duration-300">
+            <Image
+              src="/images/student.JPG"
+              alt="Student Management System"
+              width={400}
+              height={220}
+              className="w-full h-52 object-cover"
+            />
+            <div className="p-6">
+              <h3 className="text-xl font-semibold mb-2">Student Management System</h3>
+              <p className="text-gray-600 mb-4">A complete system to manage students, courses, and grades with REST API support.</p>
+              <span className="tech text-sm text-indigo-500 font-medium">
+                React • PostgreSQL • Express • REST API
+              </span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Contact Section */}
+      <section className="contact bg-indigo-50 py-16 text-center">
+        <h2 className="text-3xl font-bold mb-6">Contact</h2>
+        <p className="mb-2">Email: <a href="mailto:fikiru@email.com" className="text-indigo-600 hover:underline">fikiru@email.com</a></p>
+        <p className="mb-2">
+          GitHub:{" "}
+          <a href="https://github.com/Fikiru-CS" target="_blank" className="text-indigo-600 hover:underline">
+            github.com/Fikiru-CS
+          </a>
+        </p>
+        <p>
+          LinkedIn:{" "}
+          <a href="https://linkedin.com/in/fikiru-tamiru-06370037a/" target="_blank" className="text-indigo-600 hover:underline">
+            linkedin.com/in/fikiru-tamiru-06370037a/
+          </a>
+        </p>
+      </section>
+    </main>
+  );
 }
