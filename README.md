@@ -6,7 +6,7 @@ version control with Git, and professional project documentation.
 
 ---
 
-## 📌 Project Overview
+# Project Overview
 
 The goal of this project is to create a simple but structured personal profile website.
 It demonstrates:
@@ -19,7 +19,7 @@ This project will be extended in future stages with additional pages, styling, a
 
 ---
 
-## 🛠️ Tech Stack
+# Tech Stack
 
 - **Next.js** – React framework for production-ready applications
 - **React** – UI library
@@ -28,7 +28,7 @@ This project will be extended in future stages with additional pages, styling, a
 
 ---
 
-## ✨ Features
+# Features
 
 - Personal profile landing page
 - Next.js App Router structure
@@ -37,10 +37,10 @@ This project will be extended in future stages with additional pages, styling, a
 
 ---
 
-## 📂 Project Structure
+# Project Structure
 
 ```text
-my-profile-nextjs/
+My-Profilejs/
 ├── src/
 │   └── app/
 │       ├── page.js        # Main profile page
